@@ -1,6 +1,6 @@
-const sequelize = require('./src/db');
-const models = require('./src/models/associations');
-const initializeDb = require('./init');
+const sequelize = require('./db');
+const models = require('./models/associations');
+const initializeDb = require('../init');
 
 module.exports = {
   sequelize,
