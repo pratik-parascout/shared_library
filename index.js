@@ -1,3 +1,3 @@
-const index = require('./index');
+const index = require('./src/index');
 
 module.exports = index;
